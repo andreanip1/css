@@ -1,0 +1,39 @@
+/*flex box frog */ 
+
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;  /*colocar o display flex na section porque ela é o pai de todas as divs*/ /* automaticamente redimensiona as divs baseado na viewport*/
+    flex-wrap: wrap; /* não permite que as imagens sejam redimensionadas*/
+    justify-content: space-around; /*alinhamento horizontal */
+    align-items: center; /* o elemento pai precisa ter altura suficiente,  alinhamento vertical */
+    background-color: aliceblue;
+    height: 300px; 
+}
+
+section div{
+    width: 150px;
+    height: 150px;
+
+}
+section div:nth-child(1){
+    background-color: blue;
+}
+
+section div:nth-child(2) {
+    background-color: yellow;
+}
+
+section div:nth-child(2) {
+    background-color: green;
+}
+
+section div:nth-child(3) {
+    background-color: red;
+}
+
+section div:nth-child(4) {
+    background-color: pink;
+}

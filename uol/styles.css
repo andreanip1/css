@@ -1,0 +1,41 @@
+
+section { 
+    display: flex;
+}
+
+section > .maior50 {
+    width: 50%;
+}
+
+section > .medio30 {
+    width: 30%;
+}
+
+section > .menor20{
+    width: 20%;
+}
+
+section > .maior50 > .colunas {
+    display: flex;
+}
+.noticia {
+    padding: 5px;
+}
+
+.noticia > img {
+    width: 10%;
+}
+
+.noticia > .link-p {
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.anuncio > img {
+    width: 100%;
+}
+
